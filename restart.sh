@@ -2,7 +2,7 @@
 # James Chambers
 # Minecraft Bedrock Server restart script
 path="PATH"
-pathName="PATH"
+pathName="NAME"
 # Check if server is started
 if ! screen -list | grep -q "$pathName"; then
     echo "Server is not currently running!"
