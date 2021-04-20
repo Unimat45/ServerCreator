@@ -50,5 +50,5 @@ if screen -list | grep -q "$pathName"; then
 fi
 
 # Start server
-SCRIPT_PATH="$path/start.sh"
-(exec "$SCRIPT_PATH")
+/bin/bash "$path/start.sh"
+
